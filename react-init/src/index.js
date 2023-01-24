@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import App from './App'
+import App from './Api' //'.App' for notmal app, '.Api' to see the test file and see the fetched data from the Wiki page
 import './index.css'
 
 //import reportWebVitals from './reportWebVitals';

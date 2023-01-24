@@ -8,7 +8,7 @@ class App extends Component { //we load the Component as a property of React, th
         characters: [],
     }
 
-    removeCharacter = (index) => {
+    removeCharacter = (index) => { //method for removing characters from the list given the index
         const {characters} = this.state
 
         this.setState({ //'filter' cretes a new array, used to modify arrays in JS
