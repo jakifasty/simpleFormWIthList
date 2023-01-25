@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
 
-class App extends Component {
+class App extends Component { //this class is used to pull data from the API
     
     state = {
         data: [],
     }
 
     //after component is insterted into the DOM tree, the code is invoked
-    componentDidMount(){
+    componentDidMount(){ 
         const url = 'https://en.wikipedia.org/w/api.php?action=opensearch&search=Seona+Dancing&format=json&origin=*'
 
         fetch(url) //we fetch the url
